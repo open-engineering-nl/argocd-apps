@@ -1,6 +1,7 @@
 # :warning: Notice of migration
 
 We will no longer upgrade the apps in this repo. We have instead moved to our self hosted forgejo:
+
 https://git.smallhack.org/small-hack/argocd-apps
 
 This is mirrored to codeberg, where you can submit Issues and PRs:
