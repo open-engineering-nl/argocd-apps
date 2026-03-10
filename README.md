@@ -1,3 +1,11 @@
+# :warning: Notice of migration
+
+We will no longer upgrade the apps in this repo. We have instead moved to our self hosted forgejo:
+https://git.smallhack.org/small-hack/argocd-apps
+
+This is mirrored to codeberg, where you can submit Issues and PRs:
+https://codeberg.org/small-hack/argocd-apps
+
 # Shared Argo CD templates for self hosted infra
 
 A collection of <a href="https://argo-cd.readthedocs.io/en/stable/">Argo CD</a> templates for deploying helm apps or directories of <a href="https://kubernetes.io">Kubernetes</a> (k8s) manifests as <a href="https://argo-cd.readthedocs.io/en/stable/core_concepts/">Argo CD apps</a>. We're still working on full stability, but please feel free to ask questions or make suggestions 🧡
