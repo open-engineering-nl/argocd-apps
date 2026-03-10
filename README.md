@@ -5,6 +5,7 @@ We will no longer upgrade the apps in this repo. We have instead moved to our se
 https://git.smallhack.org/small-hack/argocd-apps
 
 This is mirrored to codeberg, where you can submit Issues and PRs:
+
 https://codeberg.org/small-hack/argocd-apps
 
 # Shared Argo CD templates for self hosted infra
