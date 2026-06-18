@@ -1,20 +1,16 @@
 # :warning: Notice of migration
 
-We will no longer upgrade the apps in this repo. We have instead moved to our self hosted forgejo:
+We will no longer upgrade the apps in this repo. Join us on codeberg!
 
-https://git.smallhack.org/small-hack/argocd-apps
-
-This is mirrored to codeberg, where you can submit Issues and PRs:
-
-https://codeberg.org/small-hack/argocd-apps
+https://codeberg.org/open-engineering/argocd-apps
 
 # Shared Argo CD templates for self hosted infra
 
 A collection of <a href="https://argo-cd.readthedocs.io/en/stable/">Argo CD</a> templates for deploying helm apps or directories of <a href="https://kubernetes.io">Kubernetes</a> (k8s) manifests as <a href="https://argo-cd.readthedocs.io/en/stable/core_concepts/">Argo CD apps</a>. We're still working on full stability, but please feel free to ask questions or make suggestions 🧡
 
-https://github.com/small-hack/argocd-apps/assets/2389292/76b0fe06-554e-4e46-856f-51a268ed170e
+https://github.com/open-engineering-nl/argocd-apps/assets/2389292/76b0fe06-554e-4e46-856f-51a268ed170e
 
-These Argo CD apps were originally designed to be compatible with [`smol-k8s-lab`](https://github.com/small-hack/smol-k8s-lab), but they can be used anywhere :)
+These Argo CD apps were originally designed to be compatible with [`smol-k8s-lab`](https://codeberg.org/open-engineering/smol-k8s-lab), but they can be used anywhere :)
 
 ## Core Tenants
 
@@ -247,16 +243,3 @@ Other useful tools that don't fit neatly into any one category.
   ```bash
   kubectl patch <CLASS>/<NAME>-p '{"metadata":{"finalizers":[]}}' --type=merge -n <NAMESPACE>
   ```
-
-## Art
-
-This part is just here for fun :) If you have open source fan art, consider submitting it to the project itself and/or us, and we'll display it with credit 💙
-
-
-### Argo CD Squid riding a Docker whale
-<img src="https://github.com/small-hack/argocd-apps/assets/2389292/1e7e5902-d48f-440d-98f4-44028f4bd90e" alt="The Argo CD mascot, an orange squid, riding a blue docker whale. The docker whale is holding a package. It's drawn in a simple cute flat style." width="250">
-
-![same image as above but way smaller](https://github.com/small-hack/argocd-apps/assets/2389292/53a0df34-5d3a-4e84-8d09-26ad17a32ffd)
-
-
-By @jessebot
